@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+
+<iframe width="560" height="315" src="{{ .Get "src" }}" allowfullscreen></iframe>
+
+{{ end }}

@@ -1,0 +1,48 @@
+&nbsp;
+{{ if .Site.Params.videos.enable }}
+{{ "<!-- videos Section Start -->" | safeHTML }}
+<section class="videos section-fp" id="videos">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.videos.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.videos.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.videos.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range first 8 (where .Site.RegularPages "Type" "videos") }}
+            {{ "<!-- single videos post -->" | safeHTML }}
+            <article class="col-12 col-md-3">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="{{ .Params.image | absURL }}" alt="Generic placeholder image">
+                    </div>
+                    <div class="post-title">
+                        <h4 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h4>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                {{ .Params.author }}
+                            </li>
+                            <li class="list-inline-item">
+                                <span>on</span>
+                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            {{ "<!-- /single videos post -->" | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- videos Section End -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,83 @@
+{{ if .Site.Params.contact.enable }}
+{{ "<!-- Start Contact Us -->" | safeHTML }}
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.contact.title }}
+                    <h2>{{.}}</h2>
+                    <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+			
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
+                    <img src="/images/social/patreon.png" style="width: 80px;"></img>
+                    {{ with .Site.Params.contact.patreon }}
+                    <h4><a href="{{.}}" style="color: #212529;">Patreon</a></h4>
+                    {{ end }}
+                    {{ with .Site.Params.contact.patr_cta }}<p>{{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>       
+                
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
+                    <img src="/images/social/youtube.png" style="width: 80px;"></img>
+                    {{ with .Site.Params.contact.youtube }}
+                    <h4><a href="{{.}}" style="color: #212529;">YouTube</a></h4>
+                    {{ end }}
+                    {{ with .Site.Params.contact.yt_cta }}<p>{{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>           
+
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
+                    <img src="/images/social/twitter.png" style="width: 80px;"></img>
+                    {{ with .Site.Params.contact.twitter }}
+                    <h4><a href="{{.}}" style="color: #212529;">Twitter</a></h4>
+                    {{ end }}
+                    {{ with .Site.Params.contact.twtr_cta }}<p>{{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div> 
+
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
+                    <img src="/images/social/github.png" style="width: 80px;"></img>
+                    {{ with .Site.Params.contact.github }}
+                    <h4><a href="{{.}}" style="color: #212529;">GitHub</a></h4>
+                    {{ end }}
+                    {{ with .Site.Params.contact.gith_cta }}<p>{{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div> 
+
+            <div class="col-12 col-md-4">
+                <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
+                    <img src="/images/social/discord.png" style="width: 80px;"></img>
+                    {{ with .Site.Params.contact.discord }}
+                    <h4><a href="{{.}}" style="color: #212529;">Discord</a></h4>
+                    {{ end }}
+                    {{ with .Site.Params.contact.dis_cta }}<p>{{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div> 
+            
+        </div>
+    </div>
+</section>
+{{ end }}

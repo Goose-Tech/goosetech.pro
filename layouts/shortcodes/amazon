@@ -1,0 +1,8 @@
+{{ if .IsNamedParams }}
+
+  
+  <video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="https://s3.us-east-2.amazonaws.com/dt-vids/{{ .Get "src" }}" />
+  <a href="https://s3.us-east-2.amazonaws.com/dt-vids/{{ .Get "src" }}">https://s3.us-east-2.amazonaws.com/dt-vids/{{ .Get "src" }}</a>
+  </video>
+
+{{ end }}

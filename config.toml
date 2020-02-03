@@ -1,0 +1,171 @@
+baseURL = "https://goosetech.pro/"
+publishDir = "../Websites/"
+languageCode = "en-us"
+title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+#defaultContentLanguageInSubdir = true
+#DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/gt-logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+#[[Params.listeLangues]]
+
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Goose-Tech - Videos About Blockchain & FOSS"
+dateFormat = "January 1, 2020"
+
+home = "HOME"
+logo = "images/gt-logo.png"
+menufixed = false
+
+footerDescription = "The official website of Goose-Tech, a tech enthusiast who creates videos and podcasts focused on cryptocurrency news, reviews, tutorials, and more."
+footerSocialTitle = "Social Media"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.en.params.hero]
+    enable  = true
+    heading = "Exploring the world of blockchain and open source software"
+    description = "Welcome to the official website of Goose-Tech, a tech enthusiast who produces videos, podcasts, and articles focused on cryptocurrency news, reviews, tutorials, and more."
+    button  = true
+    btnText = "More"
+    btnURL  = "about"
+    videoThumb = "images/slider/video-player-thumb.jpg"
+    videoURL   = "https://www.youtube.com/embed/xMQGS01KBn0?list=PLGZOuBf49pIutAp-zqxRtle5viDYxg-XF"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+    enable  = true
+    title   = "Let's journey through the world of blockchain"
+    description = "Goose-Tech Consulting, LLC began as a YouTube channel by me, who received the name *Goose* during my time as a musician. The Goose-Tech YouTube channel was initially focused on my tinkering with different computer hardware, software, and everything in between. The channel then hit its stride amid the crypto mining hype during 2018, which allowed me to focus on cryptomining tutorials. I later pursued media advisory roles with several developing cryptocurrency projects. As of late, my focus has been on blockchain tech and the flurry of new software and ideas beginning to take root all over the world. Where will this new technology lead us? Take a journey through the land of blockchain with me."
+
+# Videos Section on Homepage
+[Languages.en.params.videos]
+    enable = true
+    topTitle = "RECENT VIDEOS"
+    title = "Videos by Goose-Tech"
+    subtitle= "Videos featuring a variety of topics from cryptocurrency reviews, to mining tutorials, to crypto news."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+    enable  = true
+    topTitle= "READ ABOUT BLOCKCHAIN"
+    title   = "Latest Articles"
+    subtitle= "Articles, reviews, and thoughts on blockchain tech."
+
+# Contact Section
+[Languages.en.params.contact]
+    enable  = true
+    topTitle= "DROP ME A NOTE"
+    title   = "Contact Info"
+    subtitle= "Want to contact Goose-Tech? Get in touch on these platforms."
+    address = "United States"
+    #phone   = "(03) 9283 2617"
+    #fax     = "+61 3827 3590"
+    patr_cta = "Support my work by becoming a patron"
+    patreon = "https://www.patreon.com/goosetech"
+    #facebook= "https://www.facebook.com/"
+    yt_cta = "Subscribe to watch videos about crypto and tech"
+    youtube = "https://www.youtube.com/Goose-Tech/"
+    twtr_cta = "Follow me on Twitter"
+    twitter = "https://twitter.com/GooseTech100"
+    gith_cta = "Check out my ameature coding on GitHub"
+    github = "https://github.com/Goose-Tech/"
+    dis_cta = "Chat with me and others on Discord"
+    discord = "https://discord.gg/tWJkQMM"
+    #linkedin= "https://www.linkedin.com/"
+    #dribbble= "https://dribbble.com/"
+    #instagram= "https://www.instagram.com/"
+    mapLatitude = "51.507351"
+    mapLongitude= "-0.127758"
+    mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+    enable  = true
+    bg      = "images/call-to-action/call-to-action-bg.jpg"
+    title   = "Let's Create Something Together"
+    subtitle= "GooseTech.pro is a place to explore the world of crypto. Since most cryptocurrencies are created as FOSS (Free & Open Source Software), developers are encouraged to contribute to projects covered here or with blog and forum posts. Come get involved today."
+    btnText = "Join Me On Discord"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "videos"
+        url     = "videos"
+        weight  = 2
+    [[menu.nav]]
+        name    = "blog"
+        url     = "blog"
+        weight  = 3
+    [[menu.nav]]
+        name    = "about"
+        url     = "about"
+        weight  = 4
+    [[menu.nav]]
+        name    = "contact"
+        url     = "contact"
+        weight  = 5
+
+    # Footer Social Menu
+    [[menu.social]]
+        name    = "youtube"
+        url     = "https://www.youtube.com/Goose-Tech"
+        weight  = 1
+    [[menu.social]]
+        name    = "patreon"
+        url     = "https://www.patreon.com/goosetech"
+        weight  = 2
+    [[menu.social]]
+        name    = "twitter"
+        url     = "https://twitter.com/GooseTech100"
+        weight  = 3
+    [[menu.social]]
+        name    = "discord"
+        url     = "https://discord.gg/tWJkQMM"
+        weight  = 4
+
+    # Footer Quick links Menu
+    [[menu.quicklink]]
+        name    = "videos"
+        url     = "videos"
+        weight  = 1
+        [[menu.quicklink]]
+        name    = "blog"
+        url     = "blog"
+        weight  = 2
+    [[menu.quicklink]]
+        name    = "about"
+        url     = "about"
+        weight  = 3
+    [[menu.quicklink]]
+        name    = "contact"
+        url     = "contact"
+        weight  = 4

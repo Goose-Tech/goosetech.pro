@@ -1,0 +1,31 @@
+[videos]
+other = "Videos"
+[blog]
+other = "Blog"
+[about]
+other = "About"
+[contact]
+other = "Contact"
+
+[graphicdesign]
+other = "Graphic Design"
+[webdesign]
+other = "Web Design"
+[webdevelopment]
+other = "Web Development"
+
+[youtube]
+other = "YouTube"
+[patreon]
+other = "Patreon"
+[twitter]
+other = "Twitter"
+[discord]
+other = "Discord"
+
+[partners]
+other = "Partners"
+[faqs]
+other = "FAQ's"
+[badges]
+other = "Badges"
