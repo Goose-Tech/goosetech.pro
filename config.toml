@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://goosetech.pro"
 # publishDir = "../public/"
 languageCode = "en-us"
 title = "Goose-Tech - Videos About Blockchain & FOSS"
