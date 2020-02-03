@@ -108,8 +108,8 @@ footerSubscribeTitle = "Subscribe"
 [Languages.en.params.cta]
     enable  = true
     bg      = "images/call-to-action/call-to-action-bg.jpg"
-    title   = "Let's Create Something Together"
-    subtitle= "GooseTech.pro is a place to explore the world of crypto. Since most cryptocurrencies are created as FOSS (Free & Open Source Software), developers are encouraged to contribute to projects covered here or with blog and forum posts. Come get involved today."
+    title   = "Join the Crypto Revolution"
+    subtitle= "GooseTech.pro is a place to explore the world of crypto. Since most cryptocurrencies are created as FOSS (Free & Open Source Software), developers are encouraged to contribute to projects covered here or on my YouTube Channel. Come ask questions, leave comments, and get involved today."
     btnText = "Join Me On Discord"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
