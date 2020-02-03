@@ -1,4 +1,4 @@
-baseURL = "https://goosetech.pro/"
+baseURL = ""
 publishDir = "../Websites/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
