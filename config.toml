@@ -1,5 +1,5 @@
 baseURL = ""
-publishDir = "../Websites/"
+publishDir = "../public/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
