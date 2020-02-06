@@ -1,6 +1,7 @@
 ---
 title: "Welcome to Goose-Tech"
 date: 2020-01-27T19:42:51-05:00
+image: images/blog/001.jpg
 draft: false
 author: "Goose-Tech"
 ---
