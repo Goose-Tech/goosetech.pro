@@ -1,5 +1,5 @@
 ---
-title: "Ep01 - How to Mine Ethereum with Awesome Miner & Mining Pool Hub"
+title: "Ep02 - How to Mine Ethereum with Awesome Miner & Mining Pool Hub"
 image: images/thumbs/coins/002.jpg
 date: 2018-01-07T12:00:00-05:00
 draft: false
