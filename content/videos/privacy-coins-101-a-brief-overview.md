@@ -1,7 +1,7 @@
 ---
 title: "Privacy Coins 101 - A (Very) Brief Overview of Privacy Tech in Cryptocurrency"
 image: images/thumbs/082.jpg
-date: Tue, 20 Apr 2018 22:25:56 +0000
+date: 2018-04-20T17:35:00-05:00
 author: Goose-Tech
 tags: ["cryptocurrency", "privacy", "zk-snarks", "ring-ct"]
 ---
