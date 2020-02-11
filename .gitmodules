@@ -1,3 +1,7 @@
 [submodule "themes/navigator-hugo"]
     path = themes/navigator-hugo
     url = "https://github.com/themefisher/navigator-hugo"
+
+[submodule "static/ether1"]
+    path = static/ether1
+    url = "https://github.com/Ether1Project/node-lending"
