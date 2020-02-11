@@ -1,6 +1,6 @@
 ---
 title: "Isolated Dual Boot Win7 Manjaro"
-image: images/thumbs/001.jpg
+image: images/videos/001.jpg
 date: 2015-08-03T12:00:00-05:00
 draft: false
 type: "videos"

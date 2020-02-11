@@ -1,6 +1,6 @@
 ---
 title: "Run a VM of Your Old OS in Windows 10"
-image: images/thumbs/002.jpg
+image: images/videos/002.jpg
 date: 2015-08-16T12:00:00-05:00
 draft: false
 type: "videos"

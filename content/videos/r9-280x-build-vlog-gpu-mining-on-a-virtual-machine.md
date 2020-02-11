@@ -1,6 +1,6 @@
 ---
 title: "R9 280x Build Vlog - GPU Mining on a Virtual Machine"
-image: images/thumbs/026.jpg
+image: images/videos/026.jpg
 date: 2018-01-06T12:00:00-05:00
 draft: false
 type: "videos"

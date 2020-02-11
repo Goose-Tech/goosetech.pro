@@ -1,6 +1,6 @@
 ---
 title: "Upgrade HDD to SSD and Dual Boot Windows 10 & Linux Mint 17.3"
-image: images/thumbs/003.jpg
+image: images/videos/003.jpg
 date: 2016-02-07T12:00:00-05:00
 draft: false
 type: "videos"

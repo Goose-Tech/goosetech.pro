@@ -70,6 +70,13 @@ footerSubscribeTitle = "Subscribe"
     title = "Videos by Goose-Tech"
     subtitle= "Videos featuring a variety of topics from cryptocurrency reviews, to mining tutorials, to crypto news."
 
+# Projects Section on Homepage
+[Languages.en.params.projects]
+    enable = true
+    topTitle = "CONTRIBUTING PROJECTS"
+    title = "Projects"
+    subtitle= "See what Goose-Tech has been working on."
+
 # Blog Section On Homepage
 [Languages.en.params.blog]
     enable  = true
@@ -126,13 +133,17 @@ footerSubscribeTitle = "Subscribe"
         url     = "blog"
         weight  = 3
     [[menu.nav]]
+        name    = "projects"
+        url     = "projects"
+        weight  = 4
+    [[menu.nav]]
         name    = "about"
         url     = "about"
-        weight  = 4
+        weight  = 5
     [[menu.nav]]
         name    = "contact"
         url     = "contact"
-        weight  = 5
+        weight  = 6
 
     # Footer Social Menu
     [[menu.social]]

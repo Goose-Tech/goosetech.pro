@@ -1,6 +1,6 @@
 ---
 title: "Crypto Mining w/RX480 on an ESXi 6.0 Server VM using Passthrough"
-image: images/thumbs/007.jpg
+image: images/videos/007.jpg
 date: 2017-11-26T12:00:00-05:00
 draft: false
 type: "videos"

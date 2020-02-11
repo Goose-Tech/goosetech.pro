@@ -1,6 +1,6 @@
 ---
 title: "Mining Pool Hub Detailed Explanation of Balances & Payout"
-image: images/thumbs/025.jpg
+image: images/videos/025.jpg
 date: 2018-01-02T12:00:00-05:00
 draft: false
 type: "videos"

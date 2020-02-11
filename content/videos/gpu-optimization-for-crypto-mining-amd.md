@@ -1,6 +1,6 @@
 ---
 title: "GPU Optimization for Crypto Mining (AMD)"
-image: images/thumbs/014.jpg
+image: images/videos/014.jpg
 date: 2017-12-19T12:00:00-05:00
 draft: false
 type: "videos"

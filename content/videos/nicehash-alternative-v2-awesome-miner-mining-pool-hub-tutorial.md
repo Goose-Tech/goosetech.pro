@@ -1,6 +1,6 @@
 ---
 title: "NiceHash Alternative v2 - Awesome Miner & Mining Pool Hub - Tutorial"
-image: images/thumbs/012.jpg
+image: images/videos/012.jpg
 date: 2017-12-14T12:00:00-05:00
 draft: false
 type: "videos"

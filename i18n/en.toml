@@ -6,6 +6,8 @@ other = "Blog"
 other = "About"
 [contact]
 other = "Contact"
+[projects]
+other = "Projects"
 
 [graphicdesign]
 other = "Graphic Design"

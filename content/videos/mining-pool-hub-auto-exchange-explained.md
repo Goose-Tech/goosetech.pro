@@ -1,6 +1,6 @@
 ---
 title: "Mining Pool Hub Auto Exchange Explained"
-image: images/thumbs/018.jpg
+image: images/videos/018.jpg
 date: 2017-12-25T12:00:00-05:00
 draft: false
 type: "videos"

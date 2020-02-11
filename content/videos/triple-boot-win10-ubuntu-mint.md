@@ -1,6 +1,6 @@
 ---
 title: "Triple Boot - Windows 10, Ubuntu, & Linux Mint"
-image: images/thumbs/004.jpg
+image: images/videos/004.jpg
 date: 2016-02-13T12:00:00-05:00
 draft: false
 type: "videos"

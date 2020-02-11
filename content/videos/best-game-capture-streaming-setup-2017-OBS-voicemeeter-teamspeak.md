@@ -1,6 +1,6 @@
 ---
 title: "Best Game Capture / Streaming Setup 2017 - OBS, Voicemeeter, & Teamspeak"
-image: images/thumbs/005.jpg
+image: images/videos/005.jpg
 date: 2017-04-16T12:00:00-05:00
 draft: false
 type: "videos"

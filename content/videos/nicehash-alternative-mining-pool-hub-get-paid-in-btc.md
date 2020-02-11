@@ -1,6 +1,6 @@
 ---
 title: "NiceHash Alternative - Mining Pool Hub - Get Paid in BTC"
-image: images/thumbs/011.jpg
+image: images/videos/011.jpg
 date: 2017-12-10T12:00:00-05:00
 draft: false
 type: "videos"
