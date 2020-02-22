@@ -104,6 +104,8 @@ footerSubscribeTitle = "Subscribe"
     github = "https://github.com/Goose-Tech/"
     dis_cta = "Chat with me and others on Discord"
     discord = "https://discord.gg/tWJkQMM"
+    coinrequest = "https://goose.coinrequest.io"
+    coinr_cta = "Support me with crypto or by using my affiliate links"
     #linkedin= "https://www.linkedin.com/"
     #dribbble= "https://dribbble.com/"
     #instagram= "https://www.instagram.com/"
@@ -144,6 +146,10 @@ footerSubscribeTitle = "Subscribe"
         name    = "contact"
         url     = "contact"
         weight  = 6
+    [[menu.nav]]
+        name    = "donate"
+        url     = "https://goose.coinrequest.io"
+        weight  = 7
 
     # Footer Social Menu
     [[menu.social]]
@@ -184,3 +190,7 @@ footerSubscribeTitle = "Subscribe"
         name    = "contact"
         url     = "contact"
         weight  = 5
+    [[menu.quicklink]]
+        name    = "donate"
+        url     = "https://goose.coinrequest.io"
+        weight  = 6

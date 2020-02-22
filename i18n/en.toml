@@ -8,6 +8,8 @@ other = "About"
 other = "Contact"
 [projects]
 other = "Projects"
+[donate]
+other = "Donate"
 
 [graphicdesign]
 other = "Graphic Design"
