@@ -81,7 +81,7 @@
                 <div class="address-block contact-meta-block" style="padding-left: 20px; padding-right: 20px;">
                     <img src="/images/social/coinrequest.png" style="width: 80px;"></img>
                     {{ with .Site.Params.contact.coinrequest }}
-                    <h4><a href="{{.}}" style="color: #212529;">CoinRequest</a></h4>
+                    <h4><a target="_main" href="{{.}}" style="color: #212529;">CoinRequest</a></h4>
                     {{ end }}
                     {{ with .Site.Params.contact.coinr_cta }}<p>{{ . | safeHTML }}
                     </p>
